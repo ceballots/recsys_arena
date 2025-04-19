@@ -21,9 +21,6 @@ dev = [
 [tool.setuptools]
 packages = ["recsys_arena"]
 
-[tool.uv]
-
 [lint]
-line-length = 100
 target-version = "py311"
-select = ["E", "F", "I", "T"]  # E: style, F: bugs, I: imports, T: type checks
+select = ["E", "F", "I", "T"]
