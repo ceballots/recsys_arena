@@ -67,10 +67,18 @@ Or for Anthropic:
 export ANTHROPIC_API_KEY=your_anthropic_key_here
 ```
 
+To run the evaluator directly from Python, you can call the run_eval function in your code like this:
+
 ```python
 from recsys_arena.main import run_eval
 
 run_eval("path/to/input.csv", "path/to/output.csv")
+```
+
+Alternatively, you can run it directly from the command line:
+
+```bash
+python -m recsys_arena.run_eval --input-file sample_data/tasks.csv --output-file output.csv
 ```
 
 ## ✅ TODO
