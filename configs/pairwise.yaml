@@ -1,0 +1,6 @@
+name: pairwise_evaluation
+template_file: templates/pairwise.j2
+output_format: json
+schema:
+  winner: string
+  explanation: string

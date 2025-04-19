@@ -1,0 +1,19 @@
+You are a user comparing two recommendation systems. Return which of the two recommendations is closest to the context.
+
+Context:
+{{ context }}
+
+{{ label_a }}:
+{{ recs_a }}
+
+{{ label_b }}:
+{{ recs_b }}
+
+
+# Guidelines:
+- Return {{ label_unclear }} if there is a tie or it is unclear.
+- Return either {{ label_a }}, {{ label_b }} or {{ label_unclear }}
+
+
+Respond with JSON:
+{{ schema_instruction }}
